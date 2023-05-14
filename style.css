@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+* {
+	font-family: "Kalam", cursive;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header CSS */
+header {
+	background-color: rgb(203 213 225);
+	padding: 20px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+header div {
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header div h1,
+p {
+	background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+	header div h1 {
+		font-size: 1.5rem;
+	}
+
+	header div p {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	header div h1 {
+		font-size: 1.2rem;
+	}
+
+	header div p {
+		font-size: 0.7rem;
+	}
+}
+
+/* Main CSS*/
+main {
+	margin-top: 90px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main .container {
+	width: 90%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: rgb(226 232 240);
+}
+
+main .container .title {
+	padding: 10px;
+	text-align: center;
+	background-color: transparent;
+}
+
+main .container .title h1 {
+	font-size: 2rem;
+	font-weight: bolder;
+	color: #333;
+	background-color: transparent;
+}
+
+main .container .image {
+	padding: 10px;
+	text-align: center;
+	background-color: transparent;
+}
+
+main .container .image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+main .container .description {
+	padding: 10px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: justify;
+	background-color: transparent;
+}
+
+main .container .description p,
+b {
+	font-family: "Kalam", cursive;
+	background-color: transparent;
+}
+
+/* Footer CSS */
+footer {
+	background-color: rgb(203 213 225);
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer .box {
+	background-color: transparent;
+}
+
+footer .box h2 {
+	background-color: transparent;
+}
+
+footer .box .social-icons {
+	background-color: transparent;
+}
+footer .box .social-icons a {
+	font-size: 2rem;
+	margin: 0 10px;
+	background-color: transparent;
+}
+
+footer .box .social-icons a i {
+	background-color: transparent;
+}
+
+.social-icons a:hover {
+	color: #f8c30e;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+	footer .box h2 {
+		font-size: 1.2rem;
+	}
+}
